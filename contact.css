@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    background-image: url("minimal_black.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+
+.menu ul {
+    display: inline-flex;
+    margin: 50px;
+    left: -40px;
+}
+
+.menu ul a {
+    list-style: none;
+    margin: 0 20px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+menu a:hover,
+.menu a:active {
+    color: aqua;
+}
+
+.header {
+    color: aquamarine;
+    padding: 15px 0;
+    text-align: center;
+    
+    
+}
+
+.social-media ul {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+}
+
+.social-media a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: inline-block;
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.social-media a:hover {
+    background-color: #0e86d4;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    transform: translateY(-7px);
+    color: #ffffff;
+}
+
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    background-color: transparent color white;
+    line-height: 100px;
+
+}
